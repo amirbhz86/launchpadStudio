@@ -1,0 +1,132 @@
+{
+  "Meta": {
+    "title": "Launchpad Studio | Custom Web Development & E‑commerce",
+    "description": "Custom websites and web applications—multilingual when you need it, scoped to your budget. WordPress, modern frameworks, and performance-minded delivery."
+  },
+  "Common": {
+    "home": "Home",
+    "blog": "Blog",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main",
+    "mobileNav": "Mobile",
+    "nav": {
+      "work": "Work",
+      "services": "Services",
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "brandSubtitle": "Web & product studio"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Custom web & product development",
+      "title": "Websites and apps shaped around your goals",
+      "lead": "We are not limited to WordPress. We ship multilingual experiences, modern stacks, and pragmatic CMS choices—scoped to your roadmap and budget, with performance and SEO baked in from the start.",
+      "ctaPrimary": "Start a project",
+      "ctaSecondary": "View selected work",
+      "bullet1": "Clear proposals & milestones",
+      "bullet2": "Security-minded delivery",
+      "bullet3": "You own your site & data"
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Services",
+      "intro": "End-to-end WordPress expertise—from custom themes to commerce—delivered with the same care we bring to typography and performance.",
+      "customTitle": "Custom development",
+      "customBody": "Tailored WordPress sites aligned with your brand, content model, and growth plans.",
+      "perfTitle": "Performance & SEO",
+      "perfBody": "Core Web Vitals, caching, and search-friendly structure so pages load fast and read clearly to humans and crawlers.",
+      "ecomTitle": "E-commerce",
+      "ecomBody": "WooCommerce or other platforms—integrations and checkout flows that stay fast and maintainable as you grow."
+    },
+    "reviews": {
+      "eyebrow": "Client voices",
+      "title": "Reviews",
+      "intro": "Long-term relationships matter. Below are sample testimonials—swap in real quotes and logos when you have client permission.",
+      "t1": "They documented everything: hosting, backups, how to update content. We finally felt in control of our site.",
+      "t2": "Scope and timeline were clear from day one. No surprise invoices, and the shop stayed fast after launch.",
+      "t3": "Professional communication and quick responses. Our team could focus on campaigns instead of fixing the CMS.",
+      "name1": "Alex Morgan",
+      "role1": "Marketing Director",
+      "org1": "Meridian Digital",
+      "name2": "Jordan Lee",
+      "role2": "Founder",
+      "org2": "Velvet Row",
+      "name3": "Sam Rivera",
+      "role3": "COO",
+      "org3": "North & Co."
+    },
+    "trust": {
+      "eyebrow": "Why teams trust us",
+      "title": "Credibility & clarity",
+      "intro": "Trust comes from predictable process, honest communication, and respect for your data and intellectual property.",
+      "card1Title": "Written scope & milestones",
+      "card1Text": "You get a clear proposal: deliverables, timeline, and what is not included—before work begins.",
+      "card2Title": "Security-first habits",
+      "card2Text": "SSL, sensible permissions, updates, and backups—explained in plain language so your team stays safe.",
+      "card3Title": "You own the work",
+      "card3Text": "Source code, theme files, and documentation are yours. No lock-in tactics—we want you to succeed independently.",
+      "card4Title": "Responsive support",
+      "card4Text": "Defined handoff and a reasonable post-launch window so you are not left alone the week you go live."
+    },
+    "stats": {
+      "s1": "Client projects delivered",
+      "s2": "Years building for teams & brands",
+      "s3": "Typical first reply on new inquiries",
+      "disclaimer": "Figures are representative—replace with your verified numbers when you publish."
+    },
+    "tools": {
+      "eyebrow": "Stack & tooling",
+      "title": "Tools we build great software with",
+      "body": "From content platforms to full-stack apps—frameworks, infra, and design tools chosen for clarity, performance, and long-term maintainability."
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "Launchpad Studio",
+      "body": "We are developers and designers who treat every build like a product: clear architecture, restrained aesthetics, and outcomes you can measure. Whether the right fit is WordPress, a headless stack, or something in between—including multilingual and multi-market delivery—we align scope with what you can invest and what you need to ship next.",
+      "cta": "Let's talk"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Get in touch",
+      "intro": "Share a few details about your project. We reply within two business days.",
+      "labelName": "Name",
+      "labelEmail": "Email",
+      "labelMessage": "Message",
+      "phName": "Your name",
+      "phEmail": "you@company.com",
+      "phMessage": "Tell us about your goals, timeline, and links.",
+      "submit": "Send message",
+      "privacy": "We use your name, email, and message only to reply to this inquiry. We do not sell your data or add you to marketing lists without consent."
+    },
+    "footer": {
+      "tagline": "Custom web development and e-commerce—clear scope, secure delivery, and documentation your team can rely on.",
+      "contactLabel": "Contact",
+      "emailNote": "Replace the email above with your real business address before you go live.",
+      "rights": "All rights reserved."
+    }
+  },
+  "Portfolio": {
+    "brief": "Brief",
+    "delivered": "Delivered",
+    "impact": "Impact",
+    "flipPinned": "Case summary pinned for {title}. Activate to return to the project preview.",
+    "flipUnpinned": "Show case summary for {title}. Activate to pin; on large screens, hovering also flips the card.",
+    "fullCaseStudy": "Full case study",
+    "openPreview": "Open full-size preview of {title}",
+    "scrollLeft": "Scroll projects left",
+    "scrollRight": "Scroll projects right",
+    "closeLightbox": "Close",
+    "flipHintMobile": "Tap the card to flip the case summary.",
+    "flipHintDesktop": "Hover or click the card to flip the case summary.",
+    "focusLabel": "Project focus",
+    "sectionEyebrow": "Selected projects",
+    "sectionTitle": "Portfolio",
+    "sectionIntro": "Scroll sideways to browse. Flip each card to swap the full preview for the in-card case summary—then open the long write-up on its own page.",
+    "browseAll": "Browse all case studies",
+    "regionLabel": "Portfolio projects",
+    "scrollHint": "Drag or swipe · Snap between projects"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "Meta": {
+    "title": "Launchpad Studio | Desarrollo web y comercio electrónico a medida",
+    "description": "Sitios y aplicaciones web según tus objetivos — multilingües cuando haga falta, alineados con tu presupuesto. WordPress, stacks modernos y entrega centrada en el rendimiento."
+  },
+  "Common": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "mainNav": "Principal",
+    "mobileNav": "Móvil",
+    "nav": {
+      "work": "Trabajos",
+      "services": "Servicios",
+      "about": "Sobre nosotros",
+      "blog": "Blog",
+      "contact": "Contacto"
+    },
+    "brandSubtitle": "Estudio web y de producto"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Desarrollo web y de producto a medida",
+      "title": "Sitios y apps alineados con tus objetivos",
+      "lead": "No nos limitamos a WordPress. Entregamos experiencias multilingües, stacks modernos y decisiones pragmáticas de CMS — acotadas a tu hoja de ruta y presupuesto, con rendimiento y SEO desde el inicio.",
+      "ctaPrimary": "Empezar un proyecto",
+      "ctaSecondary": "Ver trabajos seleccionados",
+      "bullet1": "Propuestas y hitos claros",
+      "bullet2": "Entrega con mentalidad de seguridad",
+      "bullet3": "Tú eres dueño del sitio y los datos"
+    },
+    "services": {
+      "eyebrow": "Qué hacemos",
+      "title": "Servicios",
+      "intro": "WordPress de punta a punta — desde temas a comercio — con el mismo cuidado por la tipografía y el rendimiento.",
+      "customTitle": "Desarrollo a medida",
+      "customBody": "Sitios WordPress alineados con tu marca, modelo de contenido y planes de crecimiento.",
+      "perfTitle": "Rendimiento y SEO",
+      "perfBody": "Core Web Vitals, caché y estructura amigable para búsqueda — rápido para personas y rastreadores.",
+      "ecomTitle": "Comercio electrónico",
+      "ecomBody": "WooCommerce u otras plataformas — integraciones y checkout que siguen siendo rápidos y mantenibles al crecer."
+    },
+    "reviews": {
+      "eyebrow": "Voces de clientes",
+      "title": "Reseñas",
+      "intro": "Las relaciones a largo plazo importan. Abajo hay testimonios de ejemplo — sustitúyelos por citas y logos reales con permiso.",
+      "t1": "Documentaron todo: alojamiento, copias de seguridad, cómo actualizar contenido. Por fin sentimos control sobre nuestro sitio.",
+      "t2": "El alcance y el calendario fueron claros desde el día uno. Sin facturas sorpresa, y la tienda siguió rápida tras el lanzamiento.",
+      "t3": "Comunicación profesional y respuestas rápidas. Nuestro equipo pudo centrarse en campañas en lugar de arreglar el CMS.",
+      "name1": "Alex Morgan",
+      "role1": "Directora de marketing",
+      "org1": "Meridian Digital",
+      "name2": "Jordan Lee",
+      "role2": "Fundador",
+      "org2": "Velvet Row",
+      "name3": "Sam Rivera",
+      "role3": "Director de operaciones",
+      "org3": "North & Co."
+    },
+    "trust": {
+      "eyebrow": "Por qué confían en nosotros",
+      "title": "Credibilidad y claridad",
+      "intro": "La confianza viene de un proceso predecible, comunicación honesta y respeto por tus datos y propiedad intelectual.",
+      "card1Title": "Alcance escrito e hitos",
+      "card1Text": "Una propuesta clara: entregables, plazos y lo que no está incluido — antes de empezar.",
+      "card2Title": "Hábitos security-first",
+      "card2Text": "SSL, permisos sensatos, actualizaciones y copias de seguridad — explicados en lenguaje claro para tu equipo.",
+      "card3Title": "El trabajo es tuyo",
+      "card3Text": "El código fuente, los archivos del tema y la documentación son tuyos. Sin ataduras — queremos que triunfes con autonomía.",
+      "card4Title": "Soporte receptivo",
+      "card4Text": "Entrega definida y una ventana razonable tras el lanzamiento — no te dejamos solo la semana del go-live."
+    },
+    "stats": {
+      "s1": "Proyectos para clientes entregados",
+      "s2": "Años construyendo para equipos y marcas",
+      "s3": "Tiempo típico de primera respuesta",
+      "disclaimer": "Cifras orientativas — sustitúyelas por números verificados antes de publicar."
+    },
+    "tools": {
+      "eyebrow": "Stack y herramientas",
+      "title": "Con qué construimos software sólido",
+      "body": "De plataformas de contenido a apps full-stack — frameworks, infra y diseño elegidos por claridad, rendimiento y mantenimiento a largo plazo."
+    },
+    "about": {
+      "eyebrow": "Sobre nosotros",
+      "title": "Launchpad Studio",
+      "body": "Somos desarrolladores y diseñadores que tratamos cada proyecto como un producto: arquitectura clara, estética sobria y resultados medibles — WordPress, headless o algo intermedio, incluida entrega multilingüe y multi-mercado. Ajustamos el alcance a tu inversión y a lo que necesitas lanzar después.",
+      "cta": "Hablemos"
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "Ponte en contacto",
+      "intro": "Cuéntanos brevemente tu proyecto. Respondemos en dos días laborables.",
+      "labelName": "Nombre",
+      "labelEmail": "Correo",
+      "labelMessage": "Mensaje",
+      "phName": "Tu nombre",
+      "phEmail": "tu@empresa.com",
+      "phMessage": "Objetivos, plazos y enlaces — en pocas líneas.",
+      "submit": "Enviar mensaje",
+      "privacy": "Usamos tu nombre, correo y mensaje solo para responder a esta consulta. No vendemos tus datos ni te añadimos a marketing sin consentimiento."
+    },
+    "footer": {
+      "tagline": "Desarrollo web y comercio electrónico — alcance claro, entrega segura y documentación en la que tu equipo puede confiar.",
+      "contactLabel": "Contacto",
+      "emailNote": "Sustituye el correo anterior por tu dirección real antes de publicar.",
+      "rights": "Todos los derechos reservados."
+    }
+  },
+  "Portfolio": {
+    "brief": "Contexto",
+    "delivered": "Entregado",
+    "impact": "Impacto",
+    "flipPinned": "Resumen del caso fijado para «{title}». Activa para volver a la vista previa del proyecto.",
+    "flipUnpinned": "Mostrar resumen del caso para «{title}». Activa para fijar; en pantallas grandes, al pasar el cursor también se voltea la tarjeta.",
+    "fullCaseStudy": "Caso completo",
+    "openPreview": "Abrir vista previa a tamaño completo de «{title}»",
+    "scrollLeft": "Desplazar proyectos a la izquierda",
+    "scrollRight": "Desplazar proyectos a la derecha",
+    "closeLightbox": "Cerrar",
+    "flipHintMobile": "Toca la tarjeta para ver el resumen del caso.",
+    "flipHintDesktop": "Pasa el cursor o haz clic para voltear la tarjeta.",
+    "focusLabel": "Enfoque del proyecto",
+    "sectionEyebrow": "Proyectos seleccionados",
+    "sectionTitle": "Portafolio",
+    "sectionIntro": "Desplázate lateralmente. Voltea cada tarjeta para cambiar la vista previa por el resumen en la tarjeta — luego abre el artículo largo en su página.",
+    "browseAll": "Todos los casos",
+    "regionLabel": "Proyectos del portafolio",
+    "scrollHint": "Arrastra o desliza · Encaje entre proyectos"
+  }
+}

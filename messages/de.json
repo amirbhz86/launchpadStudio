@@ -1,0 +1,132 @@
+{
+  "Meta": {
+    "title": "Launchpad Studio | Individuelle Webentwicklung & E‑Commerce",
+    "description": "Websites und Webanwendungen nach Maß—mehrsprachig wenn nötig, passend zu Budget und Roadmap. WordPress, moderne Frameworks und performanceorientierte Umsetzung."
+  },
+  "Common": {
+    "home": "Start",
+    "blog": "Blog",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "mainNav": "Hauptnavigation",
+    "mobileNav": "Mobil",
+    "nav": {
+      "work": "Arbeiten",
+      "services": "Leistungen",
+      "about": "Über uns",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    },
+    "brandSubtitle": "Web- & Produktstudio"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Individuelle Web- & Produktentwicklung",
+      "title": "Websites und Apps, die zu Ihren Zielen passen",
+      "lead": "Wir sind nicht auf WordPress beschränkt. Wir liefern mehrsprachige Erlebnisse, moderne Stacks und pragmatische CMS-Entscheidungen—abgestimmt auf Roadmap und Budget, mit Performance und SEO von Anfang an.",
+      "ctaPrimary": "Projekt starten",
+      "ctaSecondary": "Ausgewählte Arbeiten",
+      "bullet1": "Klare Angebote & Meilensteine",
+      "bullet2": "Sicherheitsbewusste Lieferung",
+      "bullet3": "Sie besitzen Website & Daten"
+    },
+    "services": {
+      "eyebrow": "Was wir tun",
+      "title": "Leistungen",
+      "intro": "WordPress von Theme bis Commerce—mit derselben Sorgfalt für Typografie und Performance, die wir überall einbringen.",
+      "customTitle": "Individuelle Entwicklung",
+      "customBody": "Maßgeschneiderte WordPress-Sites passend zu Marke, Content-Modell und Wachstumsplänen.",
+      "perfTitle": "Performance & SEO",
+      "perfBody": "Core Web Vitals, Caching und suchfreundliche Struktur—schnell für Menschen und Crawler.",
+      "ecomTitle": "E-Commerce",
+      "ecomBody": "WooCommerce oder andere Plattformen—Integrationen und Checkout, die schnell und wartbar bleiben."
+    },
+    "reviews": {
+      "eyebrow": "Stimmen von Kund:innen",
+      "title": "Referenzen",
+      "intro": "Langfristige Partnerschaften zählen. Unten Beispielzitate—ersetzen Sie sie durch echte Statements und Logos mit Erlaubnis.",
+      "t1": "Alles dokumentiert: Hosting, Backups, Content-Pflege. Endlich hatten wir unsere Site wieder im Griff.",
+      "t2": "Umfang und Zeitplan von Tag eins klar. Keine Überraschungsrechnungen, der Shop blieb nach Launch schnell.",
+      "t3": "Professionelle Kommunikation, schnelle Antworten. Unser Team konnte Kampagnen fokussieren statt am CMS zu basteln.",
+      "name1": "Alex Morgan",
+      "role1": "Marketing Director",
+      "org1": "Meridian Digital",
+      "name2": "Jordan Lee",
+      "role2": "Gründer:in",
+      "org2": "Velvet Row",
+      "name3": "Sam Rivera",
+      "role3": "COO",
+      "org3": "North & Co."
+    },
+    "trust": {
+      "eyebrow": "Warum Teams uns vertrauen",
+      "title": "Glaubwürdigkeit & Klarheit",
+      "intro": "Vertrauen entsteht durch vorhersehbare Prozesse, ehrliche Kommunikation und Respekt vor Ihren Daten und IP.",
+      "card1Title": "Schriftlicher Scope & Meilensteine",
+      "card1Text": "Klares Angebot: Deliverables, Zeitplan und was nicht dabei ist—bevor es losgeht.",
+      "card2Title": "Security-first",
+      "card2Text": "SSL, sinnvolle Rechte, Updates und Backups—in verständlicher Sprache erklärt.",
+      "card3Title": "Sie besitzen die Arbeit",
+      "card3Text": "Quellcode, Theme-Dateien und Doku gehören Ihnen. Kein Lock-in—wir wollen, dass Sie eigenständig erfolgreich sind.",
+      "card4Title": "Responsive Support",
+      "card4Text": "Definierte Übergabe und ein angemessenes Fenster nach Launch—Sie stehen in der Go-live-Woche nicht allein da."
+    },
+    "stats": {
+      "s1": "Kundenprojekte geliefert",
+      "s2": "Jahre für Teams & Marken",
+      "s3": "Typische erste Antwort auf Anfragen",
+      "disclaimer": "Richtwerte—ersetzen Sie sie durch verifizierte Zahlen vor dem Livegang."
+    },
+    "tools": {
+      "eyebrow": "Stack & Tooling",
+      "title": "Womit wir zuverlässig bauen",
+      "body": "Von Content-Plattformen bis Full-Stack-Apps—Frameworks, Infra und Design-Tools für Klarheit, Performance und langfristige Wartbarkeit."
+    },
+    "about": {
+      "eyebrow": "Über uns",
+      "title": "Launchpad Studio",
+      "body": "Wir sind Entwickler:innen und Designer:innen, die jedes Projekt wie ein Produkt behandeln: klare Architektur, zurückhaltende Ästhetik, messbare Ergebnisse—ob WordPress, Headless oder dazwischen, inklusive mehrsprachiger und multi-market Auslieferung. Scope richtet sich nach Invest und dem, was Sie als Nächstes liefern müssen.",
+      "cta": "Sprechen wir"
+    },
+    "contact": {
+      "eyebrow": "Kontakt",
+      "title": "Kontakt aufnehmen",
+      "intro": "Kurz Ihr Projekt beschreiben. Wir antworten innerhalb von zwei Werktagen.",
+      "labelName": "Name",
+      "labelEmail": "E-Mail",
+      "labelMessage": "Nachricht",
+      "phName": "Ihr Name",
+      "phEmail": "sie@firma.de",
+      "phMessage": "Ziele, Zeitplan und Links—kurz und konkret.",
+      "submit": "Nachricht senden",
+      "privacy": "Wir nutzen Name, E-Mail und Nachricht nur zur Beantwortung. Kein Weiterverkauf, keine Marketinglisten ohne Zustimmung."
+    },
+    "footer": {
+      "tagline": "Individuelle Webentwicklung und E-Commerce—klarer Scope, sichere Lieferung, Dokumentation für Ihr Team.",
+      "contactLabel": "Kontakt",
+      "emailNote": "Ersetzen Sie die E-Mail durch Ihre echte Geschäftsadresse vor dem Livegang.",
+      "rights": "Alle Rechte vorbehalten."
+    }
+  },
+  "Portfolio": {
+    "brief": "Ausgangslage",
+    "delivered": "Geliefert",
+    "impact": "Wirkung",
+    "flipPinned": "Fallzusammenfassung für „{title}“ angeheftet. Aktivieren, um zur Projektvorschau zurückzukehren.",
+    "flipUnpinned": "Fallzusammenfassung für „{title}“ anzeigen. Aktivieren zum Anheften; auf großen Bildschirmen klappt die Karte auch per Hover.",
+    "fullCaseStudy": "Vollständige Fallstudie",
+    "openPreview": "Vollbildvorschau von „{title}“ öffnen",
+    "scrollLeft": "Projekte nach links scrollen",
+    "scrollRight": "Projekte nach rechts scrollen",
+    "closeLightbox": "Schließen",
+    "flipHintMobile": "Tippen Sie die Karte, um die Fallzusammenfassung zu sehen.",
+    "flipHintDesktop": "Hover oder Klick zum Umdrehen der Karte.",
+    "focusLabel": "Projektfokus",
+    "sectionEyebrow": "Ausgewählte Projekte",
+    "sectionTitle": "Portfolio",
+    "sectionIntro": "Seitwärts scrollen. Karten umdrehen für die Kurzfassung—danach die ausführliche Fallstudie auf der eigenen Seite.",
+    "browseAll": "Alle Fallstudien",
+    "regionLabel": "Portfolio-Projekte",
+    "scrollHint": "Ziehen oder wischen · Zwischen Projekten einrasten"
+  }
+}

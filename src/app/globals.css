@@ -1,0 +1,381 @@
+@import "tailwindcss";
+
+/* Match ThemeToggle + themeInitScript: dark:* follows html.dark, not OS preference alone */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Brand palette: gold, white, black — semantic tokens switch in .dark */
+:root {
+  --brand-gold: #c9a227;
+  --brand-gold-muted: #a6841a;
+  --brand-white: #fafaf8;
+  --brand-black: #0a0a0a;
+
+  --background: var(--brand-white);
+  --foreground: var(--brand-black);
+  --muted: #4a4740;
+  --border-subtle: rgba(10, 10, 10, 0.09);
+  --card: #ffffff;
+  --card-elevated: rgba(255, 255, 255, 0.72);
+  --accent: var(--brand-gold);
+  --accent-soft: rgba(201, 162, 39, 0.14);
+  --hero-deep: #0f0e0c;
+  --hero-surface: #f4f2ec;
+  --hero-glow: rgba(201, 162, 39, 0.22);
+  --hero-text: #1a1814;
+  --hero-text-muted: #5c564c;
+  --hero-ring: rgba(201, 162, 39, 0.35);
+
+  /* Design system — spacing, radii, elevation (use via var(--ds-*)) */
+  /* Radii: softer, product-style corners (avoid sharp 8px “dev UI” feel) */
+  --ds-radius-sm: 0.625rem;
+  --ds-radius-md: 0.875rem;
+  --ds-radius-lg: 1.25rem;
+  --ds-radius-xl: 1.75rem;
+  --ds-radius-2xl: 2.25rem;
+  --ds-section-y: clamp(3.5rem, 9vw, 6rem);
+  --ds-gap-card: 1.25rem;
+  --ds-shadow-card: 0 1px 0 rgba(10, 10, 10, 0.04), 0 22px 44px -28px rgba(15, 14, 13, 0.14);
+  --ds-shadow-card-hover: 0 1px 0 rgba(10, 10, 10, 0.06), 0 28px 56px -28px rgba(15, 14, 13, 0.2);
+  --ds-image-overlay: linear-gradient(
+    to top,
+    rgba(10, 10, 10, 0.82) 0%,
+    rgba(10, 10, 10, 0.35) 42%,
+    transparent 72%
+  );
+  --ds-label-size: 0.65rem;
+  --ds-label-tracking: 0.22em;
+  --ds-chip-bg: rgba(201, 162, 39, 0.08);
+  --ds-chip-border: rgba(201, 162, 39, 0.22);
+}
+
+html.dark {
+  --background: var(--brand-black);
+  --foreground: var(--brand-white);
+  --muted: #a8a39a;
+  --border-subtle: rgba(250, 250, 248, 0.1);
+  --card: #121110;
+  --card-elevated: rgba(18, 17, 16, 0.85);
+  --accent-soft: rgba(201, 162, 39, 0.18);
+  --hero-deep: #050504;
+  --hero-surface: #0c0b09;
+  --hero-glow: rgba(201, 162, 39, 0.12);
+  --hero-text: #f5f4f0;
+  --hero-text-muted: #a39e94;
+  --hero-ring: rgba(201, 162, 39, 0.28);
+  --ds-shadow-card: 0 1px 0 rgba(255, 255, 255, 0.04), 0 24px 48px -28px rgba(0, 0, 0, 0.55);
+  --ds-shadow-card-hover: 0 1px 0 rgba(255, 255, 255, 0.06), 0 32px 64px -28px rgba(0, 0, 0, 0.65);
+  --ds-image-overlay: linear-gradient(
+    to top,
+    rgba(5, 5, 4, 0.88) 0%,
+    rgba(5, 5, 4, 0.4) 45%,
+    transparent 74%
+  );
+  --ds-chip-bg: rgba(201, 162, 39, 0.12);
+  --ds-chip-border: rgba(201, 162, 39, 0.28);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border-subtle);
+  --color-card: var(--card);
+  --color-card-elevated: var(--card-elevated);
+  --color-primary: var(--accent);
+  --color-accent: var(--accent);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-muted: var(--brand-gold-muted);
+  --color-brand-white: var(--brand-white);
+  --color-brand-black: var(--brand-black);
+  --color-hero-text: var(--hero-text);
+  --color-hero-text-muted: var(--hero-text-muted);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  /* Display/heading stack matches body — one readable family for consistency & SEO-friendly rendering */
+  --font-serif: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --radius-ds-sm: var(--ds-radius-sm);
+  --radius-ds-md: var(--ds-radius-md);
+  --radius-ds-lg: var(--ds-radius-lg);
+  --radius-ds-xl: var(--ds-radius-xl);
+  --radius-ds-2xl: var(--ds-radius-2xl);
+  --shadow-ds-card: var(--ds-shadow-card);
+  --shadow-ds-card-hover: var(--ds-shadow-card-hover);
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Reveal on scroll (toggled by RevealOnScroll.tsx) */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(1.25rem);
+  transition:
+    opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: 0ms;
+}
+
+.reveal-on-scroll-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero intro — runs once on load */
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-animate {
+  animation: hero-fade-up 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-animate-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.hero-animate-delay-2 {
+  animation-delay: 0.2s;
+}
+
+.hero-animate-delay-3 {
+  animation-delay: 0.32s;
+}
+
+.hero-animate-delay-4 {
+  animation-delay: 0.42s;
+}
+
+@keyframes hero-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(var(--hero-rot, -2deg));
+  }
+  50% {
+    transform: translateY(-14px) rotate(0deg);
+  }
+}
+
+@keyframes hero-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-float-card {
+  animation: hero-float 7s ease-in-out infinite;
+}
+
+.hero-float-card-delay-1 {
+  animation-delay: -1.2s;
+}
+
+.hero-float-card-delay-2 {
+  animation-delay: -2.4s;
+}
+
+.hero-orbit-slow {
+  animation: hero-orbit 48s linear infinite;
+}
+
+/* Tools section — gentle float per chip (stagger via --tools-float-i) */
+@keyframes tools-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.tools-float-chip {
+  animation: tools-float 5.5s ease-in-out infinite;
+  animation-delay: calc(-0.42s * var(--tools-float-i, 0));
+}
+
+@keyframes mobile-drawer-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0.96;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.mobile-drawer-panel {
+  animation: mobile-drawer-in 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+    scroll-padding-top: 5rem;
+  }
+
+  .reveal-on-scroll,
+  .reveal-on-scroll-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .hero-animate,
+  .hero-animate-delay-1,
+  .hero-animate-delay-2,
+  .hero-animate-delay-3,
+  .hero-animate-delay-4 {
+    animation: none;
+  }
+
+  .hero-float-card,
+  .hero-float-card-delay-1,
+  .hero-float-card-delay-2,
+  .hero-orbit-slow {
+    animation: none;
+  }
+
+  .tools-float-chip {
+    animation: none;
+  }
+
+  .mobile-drawer-panel {
+    animation: none;
+  }
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--foreground);
+}
+
+/* Portfolio horizontal cards — entrance (respects reduced motion via @media below) */
+@keyframes portfolio-card-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.portfolio-scroll-card {
+  animation: portfolio-card-rise 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-scroll-card {
+    animation: none;
+  }
+}
+
+/* Portfolio card — image ↔ case details flip (3D); crossfade when reduced motion */
+.portfolio-flip-root {
+  perspective: 1100px;
+}
+
+.portfolio-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.portfolio-flip-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.portfolio-flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.portfolio-flip-face--back {
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-flip-inner {
+    transform: none !important;
+    transition: none;
+  }
+
+  .portfolio-flip-face {
+    backface-visibility: visible;
+    transition: opacity 0.22s ease;
+  }
+
+  .portfolio-flip-face--front {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .portfolio-flip-face--back {
+    transform: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .portfolio-flip-inner.is-flipped .portfolio-flip-face--front {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .portfolio-flip-inner.is-flipped .portfolio-flip-face--back {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/* Design system — typography primitives (sections; hero may override colors) */
+.ds-eyebrow {
+  margin-bottom: 1rem;
+  font-size: var(--ds-label-size);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--ds-label-tracking);
+  color: var(--accent);
+}
+
+.ds-heading-2 {
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  color: var(--foreground);
+}
+
+@media (min-width: 768px) {
+  .ds-heading-2 {
+    font-size: 3rem;
+  }
+}
